@@ -10,7 +10,7 @@ function Footer() {
       <FaFacebook />
       <FaYoutube />
       </div>
-      <h1 className=' pt-6 '>Thank You...Visit Us Again ..</h1>
+      <h1 className=' pt-6 '>Thank You...Visit Us Again ...</h1>
       
     </div>
   )
