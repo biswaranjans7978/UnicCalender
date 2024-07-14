@@ -31,7 +31,11 @@ const userSchema= new mongoose.Schema({
  
 const server = express();
 
-server.use(cors());
+server.use(cors({
+  origin:["https://unic-calender-client.vercel.app"],
+  methods:["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
 server.use(bodyParser.json());
 
 //CRUD-create
