@@ -90,7 +90,7 @@ let Comment =()=> {
   let handleSubmit=async (e)=>{
     navigate('/thankyou')
    e.preventDefault();
- const response = await fetch('https://unic-calender-server.vercel.app/demo/users',{
+ const response = await fetch('https://unic-calender-server.vercel.app/demo',{
     method:'POST',
     body:JSON.stringify(formData),
     headers:{
@@ -101,7 +101,7 @@ let Comment =()=> {
   //console.log(formData);
   //console.log(response);
   console.log(data);
-  console.log();
+  console.log()
 
  }
   

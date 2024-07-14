@@ -22,7 +22,7 @@ let Contact =()=> {
    let handleSubmit= async (e)=>{
     navigate('/thankyou')
     e.preventDefault();
-    const response = await fetch('https://unic-calender-server.vercel.app/userdatas',{
+    const response = await fetch('https://unic-calender-server.vercel.app/userdata',{
       method:'POST',
     body:JSON.stringify(formDetails),
     headers:{
