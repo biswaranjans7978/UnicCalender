@@ -10,6 +10,13 @@ function CalenderCard({ data,setData,data2}) {
   let navigate = useNavigate();
   function handleCalenderCard(){
     navigate("/fullImg",{state:data})
+
+    if(isCalender){
+      navigate("/fullImg",{state:data.cardImg})
+    }
+    else{
+      navigate("/fullImg",{state:data.cardImg2})
+    }
   }
 
    
@@ -50,7 +57,7 @@ function CalenderCard({ data,setData,data2}) {
             <div className='flex gap-5 text-2xl justify-center bg-amber-300 text-blue-900 font-bold'>
               <h1 className='  '>{data.monthName}</h1>
               <Link  className=' pl-1 ' onClick={handleRasiphala}>{
-                isCalender ? "ରାଶିଫଳ" : "calender"
+                isCalender ? "ରାଶିଫଳ" : "କ୍ୟାଲେଣ୍ଡର"
               }</Link>
               
             </div>
