@@ -45,8 +45,10 @@ function Banner() {
             <span className='inline-block'>୨</span>
             <span className='inline-block'>୫</span>
         </div>
-        <div className="subtitle text-xl  font-medium lg:my-10 my-6 text-white sm:text-red-600 lg:text-white">
-            Odia Calender 2025    
+        <div className="subtitle text-xl  font-medium lg:my-10 my-6 text-white sm:text-red-600 lg:text-white text-center">
+            <h3 className=" hidden lg:block">Odia Calender 2025</h3> 
+            <h3 className=" lg:hidden">Odia Calender</h3>  
+            <h3 className=" lg:hidden">2025 </h3>
         </div>
 
     </div>
