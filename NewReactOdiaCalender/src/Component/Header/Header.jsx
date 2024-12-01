@@ -10,7 +10,7 @@ function Header() {
   return (
     <div className='navbar relative lg:h-14 bg-green-800 text-white flex gap-4 justify-between flex-col text-2xl font-bold lg:p-4 lg:flex-row  lg:items-center'>
         <div className="left p-4">
-          <h1>Calender</h1>
+          <h1>କ୍ୟାଲେଣ୍ଡର</h1>
         </div>
 
         <div className={`medium ${display}  flex flex-col  gap-2 font-normal lg:flex-row lg:block lg:flex lg:gap-4 lg:pr-4    text-center`}> 
