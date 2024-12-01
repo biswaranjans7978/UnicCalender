@@ -43,7 +43,7 @@ let Contact =()=> {
         <div className=' h-48 w-80 lg:h-60 lg:w-60 bg-white flex flex-col items-center justify-center gap-2'>
         <IoLocationOutline className=' text-5xl text-sky-400'/>
         <h3 className=' font-bold'>OUR MAIN OFFICE</h3>
-        <h2>Kapilaprasad,Old Town,BBSR</h2>
+        <h2>Bhubaneswar,Odisha</h2>
         </div>
 
         <div className='h-48 w-80 lg:h-60 lg:w-60  bg-white flex flex-col items-center justify-center gap-2'>
