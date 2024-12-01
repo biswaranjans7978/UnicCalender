@@ -15,8 +15,8 @@ function Header() {
 
         <div className={`medium ${display}  flex flex-col  gap-2 font-normal lg:flex-row lg:block lg:flex lg:gap-4 lg:pr-4    text-center`}> 
           <Link to="/" className=' hover:bg-orange-400 rounded-md hover:font-semibold p-1 '>Home</Link>
-          <Link to="/monthlyfestive" className=' hover:bg-orange-400  rounded-md hover:font-semibold p-1'>Festivals & Holiday</Link>
-          <Link to="/contact" className=' hover:bg-orange-400 rounded-md hover:font-semibold p-1'>Contact</Link>
+          <Link to="/monthlyfestive" className=' hover:bg-orange-400  rounded-md hover:font-semibold p-1'>ପର୍ବପର୍ବାଣୀ ଓ ଛୁଟିଦିନ</Link>
+          <Link to="/contact" className=' hover:bg-orange-400 rounded-md hover:font-semibold p-1'>ଯୋଗାଯୋଗ</Link>
         </div>
         <div className='absolute right-3 lg:hidden'>
         {menu ? (
