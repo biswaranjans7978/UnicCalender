@@ -131,7 +131,7 @@ function CalenderImg() {
       </div>
     </marquee>
     </div>
-   <div className='front p-2  lg:grid lg:grid-cols-4 lg:gap-4 border-2'>
+   <div className='front p-2 lg:grid lg:grid-cols-4 lg:gap-4 border-2 '>
     {
       data.map((data)=>{
 

@@ -51,7 +51,7 @@ function CalenderCard({ data,setData,data2}) {
 
     <div className=' w-full '>
       
-        <div className='card  border-2 rounded ' >
+        <div className='card mb-4 lg:mb-0 border-2 rounded ' >
           <img onClick={handleCalenderCard}  className='front  w-full h-96 ' src={img} alt="" />
           <div>
             <div className='flex gap-5 text-2xl justify-center bg-amber-300 text-blue-900 font-bold'>
