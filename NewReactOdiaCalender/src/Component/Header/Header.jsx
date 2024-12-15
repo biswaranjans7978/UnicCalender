@@ -8,7 +8,7 @@ function Header() {
   let [display, SetDisplay] = useState("hidden");
   let [menu, setMenu] = useState(1);
   return (
-    <div className='navbar relative lg:h-14 bg-green-800 text-white flex gap-4 justify-between flex-col text-2xl font-bold lg:p-4 lg:flex-row  lg:items-center'>
+    <div className='navbar sticky top-0  lg:h-14 bg-green-800 text-white flex gap-4 justify-between flex-col text-2xl font-bold lg:p-4 lg:flex-row  lg:items-center'>
         <div className="left p-4">
           <Link to="/"><h1>କ୍ୟାଲେଣ୍ଡର</h1></Link>
         </div>
