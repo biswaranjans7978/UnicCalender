@@ -121,7 +121,7 @@ function CalenderImg() {
   return (
    <>
    
-   <div className='  w-full pt- justify-center bg-orange-300 '>
+   <div className='  w-full pt- justify-center bg-pink-500 '>
     <div className=" h-20 font-extrabold text-xl text-white mb- bg-[url('https://www.shutterstock.com/image-vector/indian-tribal-painting-warli-260nw-2429804279.jpg')] ">
     <marquee behavior="" direction="">
       <div className=' flex pt-8 '>

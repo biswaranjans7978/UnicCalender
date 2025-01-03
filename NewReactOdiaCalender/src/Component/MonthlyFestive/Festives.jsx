@@ -308,7 +308,7 @@ function Festives() {
             date18:"ତା ୨୮",
             date19:"ତା ୨୯",
             date20:"ତା ୩୦",
-            date20:"ତା ୩୧",
+            date21:"ତା ୩୧",
             
         },
             monthFestives:
@@ -551,8 +551,8 @@ function Festives() {
             date18:"ତା ୨୭",
             date19:"ତା ୨୮",
             date20:"ତା ୨୯",
-            date20:"ତା ୩୦",
-            date20:"ତା ୩୧",
+            date21:"ତା ୩୦",
+            date22:"ତା ୩୧",
         },
             monthFestives:
         {
